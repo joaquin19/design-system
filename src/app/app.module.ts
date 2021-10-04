@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NetpayModule } from 'netpay';
+// import { NetpayModule } from 'projects/netpay/src/public-api';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +10,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NetpayModule
   ],
   providers: [],
   bootstrap: [AppComponent]
