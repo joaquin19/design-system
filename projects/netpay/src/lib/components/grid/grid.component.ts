@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import '@angular/localize/init';
-import { responseReportData } from '../../constants/employee';
 import { DatePipe, formatCurrency, registerLocaleData } from '@angular/common';
 import { IGridFields } from './../../interfaces/gridFields.interface';
 import es from '@angular/common/locales/es';
