@@ -2,6 +2,31 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/netpay",
   "lib": {
-    "entryFile": "src/public-api.ts"
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "@fortawesome/fontawesome-free": "^5.15.4",
+      "@progress/kendo-angular-buttons": "^6.3.1",
+      "@progress/kendo-angular-common": "^2.0.1",
+      "@progress/kendo-angular-dateinputs": "^5.2.3",
+      "@progress/kendo-angular-dialog": "^5.1.1",
+      "@progress/kendo-angular-dropdowns": "^5.4.0",
+      "@progress/kendo-angular-excel-export": "^4.0.1",
+      "@progress/kendo-angular-grid": "^5.4.1",
+      "@progress/kendo-angular-inputs": "^7.4.0",
+      "@progress/kendo-angular-intl": "^3.1.1",
+      "@progress/kendo-angular-l10n": "^3.0.2",
+      "@progress/kendo-angular-label": "^3.1.0",
+      "@progress/kendo-angular-pdf-export": "^3.0.1",
+      "@progress/kendo-angular-popup": "^4.0.1",
+      "@progress/kendo-angular-treeview": "^5.4.1",
+      "@progress/kendo-data-query": "^1.5.5",
+      "@progress/kendo-drawing": "^1.14.0",
+      "@progress/kendo-licensing": "^1.2.0",
+      "@progress/kendo-theme-default": "^4.41.2",
+      "ng-sidebar": "^9.4.2",
+      "moment": "^2.29.1",
+      "rxjs": "~6.6.0",
+      "bootstrap": "^5.1.3"
+    }
   }
 }

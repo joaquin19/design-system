@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'NetPay';
+  src:  url('./../../fonts/NetPay.eot');
+  src:  url('./../../fonts/NetPay.eot#iefix') format('embedded-opentype'),
+        url('./../../fonts/NetPay.ttf') format('truetype'),
+        url('./../../fonts/NetPay.woff') format('woff'),
+        url('./../../fonts/NetPay.svg#NetPay') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'NetPay', Fallback, sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.NP-icon-brand-checkout-full:before {
+  content: "\e941";
+}
+.NP-icon-brand-checkout-symbol:before {
+  content: "\e942";
+}
+.NP-icon-brand-checkout-text:before {
+  content: "\e943";
+}
+.NP-icon-brand-loop-full:before {
+  content: "\e944";
+}
+.NP-icon-brand-loop-symbol:before {
+  content: "\e945";
+}
+.NP-icon-brand-loop-text:before {
+  content: "\e946";
+}
+.NP-icon-brand-app-full:before {
+  content: "\e933";
+}
+.NP-icon-brand-app-symbol:before {
+  content: "\e934";
+}
+.NP-icon-brand-app-text:before {
+  content: "\e935";
+}
+.NP-icon-brand-link-full:before {
+  content: "\e936";
+}
+.NP-icon-brand-link-symbol:before {
+  content: "\e937";
+}
+.NP-icon-brand-link-text:before {
+  content: "\e938";
+}
+.NP-icon-brand-maker-full:before {
+  content: "\e939";
+}
+.NP-icon-brand-maker-symbol:before {
+  content: "\e93a";
+}
+.NP-icon-brand-maker-text:before {
+  content: "\e93b";
+}
+.NP-icon-brand-manager-full:before {
+  content: "\e93c";
+}
+.NP-icon-brand-manager-symbol:before {
+  content: "\e93d";
+}
+.NP-icon-brand-manager-text:before {
+  content: "\e93e";
+}
+.NP-icon-brand-NP:before {
+  content: "\e93f";
+}
+.NP-icon-brand-suite:before {
+  content: "\e940";
+}
+.NP-icon-dollar-sign-light:before {
+  content: "\e95c";
+}
+.NP-icon-dollar-sign:before {
+  content: "\e95d";
+}
+.NP-icon-sync-solid:before {
+  content: "\e95e";
+}
+.NP-icon-sync:before {
+  content: "\e95f";
+}
+.NP-icon-hand-holding-usd:before {
+  content: "\e95b";
+}
+.NP-icon-alarm-light:before {
+  content: "\e947";
+}
+.NP-icon-calendar-day-light:before {
+  content: "\e948";
+}
+.NP-icon-cash-arrows-circle:before {
+  content: "\e949";
+}
+.NP-icon-cash-machine:before {
+  content: "\e94a";
+}
+.NP-icon-cloud-upload:before {
+  content: "\e94b";
+}
+.NP-icon-columns:before {
+  content: "\e94c";
+}
+.NP-icon-download-solid:before {
+  content: "\e94d";
+}
+.NP-icon-download:before {
+  content: "\e94e";
+}
+.NP-icon-ellipsis-solid:before {
+  content: "\e94f";
+}
+.NP-icon-flag-light:before {
+  content: "\e950";
+}
+.NP-icon-folder-files-solid:before {
+  content: "\e951";
+}
+.NP-icon-history-solid:before {
+  content: "\e952";
+}
+.NP-icon-lock-money-solid:before {
+  content: "\e953";
+}
+.NP-icon-money-arrows-solid:before {
+  content: "\e954";
+}
+.NP-icon-resend-light:before {
+  content: "\e955";
+}
+.NP-icon-resend-solid:before {
+  content: "\e956";
+}
+.NP-icon-ticket-solid:before {
+  content: "\e957";
+}
+.NP-icon-ticket:before {
+  content: "\e958";
+}
+.NP-icon-user-light:before {
+  content: "\e959";
+}
+.NP-icon-user-solid:before {
+  content: "\e95a";
+}
+.NP-icon-alert-light:before {
+  content: "\e900";
+}
+.NP-icon-alert-triangle-light:before {
+  content: "\e901";
+}
+.NP-icon-badge-porcent:before {
+  content: "\e902";
+}
+.NP-icon-camera-light:before {
+  content: "\e903";
+}
+.NP-icon-card:before {
+  content: "\e904";
+}
+.NP-icon-chart-pie:before {
+  content: "\e905";
+}
+.NP-icon-check:before {
+  content: "\e906";
+}
+.NP-icon-chevron-down:before {
+  content: "\e907";
+}
+.NP-icon-chevron-left:before {
+  content: "\e908";
+}
+.NP-icon-chevron-up:before {
+  content: "\e909";
+}
+.NP-icon-clip:before {
+  content: "\e90a";
+}
+.NP-icon-comment-circle:before {
+  content: "\e90b";
+}
+.NP-icon-comment:before {
+  content: "\e90c";
+}
+.NP-icon-cross-light:before {
+  content: "\e90d";
+}
+.NP-icon-cross-solid:before {
+  content: "\e90e";
+}
+.NP-icon-danger-triangle-solid:before {
+  content: "\e90f";
+}
+.NP-icon-date-cross:before {
+  content: "\e910";
+}
+.NP-icon-date-minus:before {
+  content: "\e911";
+}
+.NP-icon-date-plus:before {
+  content: "\e912";
+}
+.NP-icon-date:before {
+  content: "\e913";
+}
+.NP-icon-doc:before {
+  content: "\e914";
+}
+.NP-icon-dot-solid:before {
+  content: "\e915";
+}
+.NP-icon-download-file-light:before {
+  content: "\e916";
+}
+.NP-icon-file-contract:before {
+  content: "\e917";
+}
+.NP-icon-file:before {
+  content: "\e918";
+}
+.NP-icon-filter-solid:before {
+  content: "\e919";
+}
+.NP-icon-folder:before {
+  content: "\e91a";
+}
+.NP-icon-gear-light:before {
+  content: "\e91b";
+}
+.NP-icon-help:before {
+  content: "\e91c";
+}
+.NP-icon-home-light:before {
+  content: "\e91d";
+}
+.NP-icon-info-circle-solid:before {
+  content: "\e91e";
+}
+.NP-icon-logout-light:before {
+  content: "\e91f";
+}
+.NP-icon-long-arrow-down-light:before {
+  content: "\e920";
+}
+.NP-icon-long-arrow-left-light:before {
+  content: "\e921";
+}
+.NP-icon-long-arrow-right-light:before {
+  content: "\e922";
+}
+.NP-icon-long-arrow-up-light:before {
+  content: "\e923";
+}
+.NP-icon-marker:before {
+  content: "\e924";
+}
+.NP-icon-menu-dots:before {
+  content: "\e925";
+}
+.NP-icon-menu-hamb:before {
+  content: "\e926";
+}
+.NP-icon-pen:before {
+  content: "\e927";
+}
+.NP-icon-player:before {
+  content: "\e928";
+}
+.NP-icon-plus:before {
+  content: "\e929";
+}
+.NP-icon-refresh:before {
+  content: "\e92a";
+}
+.NP-icon-search-light:before {
+  content: "\e92b";
+}
+.NP-icon-share:before {
+  content: "\e92c";
+}
+.NP-icon-shoping-bag:before {
+  content: "\e92d";
+}
+.NP-icon-sort-down:before {
+  content: "\e92e";
+}
+.NP-icon-sort-up:before {
+  content: "\e92f";
+}
+.NP-icon-store-light:before {
+  content: "\e930";
+}
+.NP-icon-trash:before {
+  content: "\e931";
+}
+.NP-icon-upload-file-light:before {
+  content: "\e932";
+}
+.NP-icon-dashboardo:before {
+  content: "\e960";
+}
+.NP-icon-dollar-arrows:before {
+  content: "\e961";
+}
+.NP-icon-users-config:before {
+  content: "\e962";
+}
+.NP-icon-client-light:before {
+  content: "\e974";
+}
+.NP-icon-list-light:before {
+  content: "\e977";
+}
+.NP-icon-dollar-arrows {
+  content: "\e961";
+}
+.NP-icon-user-light {
+  content: "\e959";
+}
+.NP-icon-eye {
+  content: "\e970";
+}

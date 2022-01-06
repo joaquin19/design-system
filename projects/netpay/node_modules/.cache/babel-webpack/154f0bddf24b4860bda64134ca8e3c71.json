@@ -1,0 +1,1 @@
+{"ast":null,"code":"const now = Date.now || function () {\n  return new Date().getTime();\n};\n\nexport default now;","map":null,"metadata":{},"sourceType":"module"}

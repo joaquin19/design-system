@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { setYear } from './set-year';\n/**\n * @hidden\n */\n\nexport const normalizeYear = (value, year) => setYear(value, year(value.getFullYear()));","map":null,"metadata":{},"sourceType":"module"}

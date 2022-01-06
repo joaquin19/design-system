@@ -1,0 +1,1 @@
+{"ast":null,"code":"let current = {\n  toString: value => value\n};\n\nclass IntlService {\n  static register(userImplementation) {\n    current = userImplementation;\n  }\n\n  static toString(value, format) {\n    return current.toString(value, format);\n  }\n\n}\n\nexport default IntlService;","map":null,"metadata":{},"sourceType":"module"}

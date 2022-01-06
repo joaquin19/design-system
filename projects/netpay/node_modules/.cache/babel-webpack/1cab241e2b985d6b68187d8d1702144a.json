@@ -1,0 +1,1 @@
+{"ast":null,"code":"import PathNode from './path-node';\nimport renderPath from './utils/render-path';\n\nclass ArcNode extends PathNode {\n  renderPoints(ctx) {\n    const path = this.srcElement.toPath();\n    renderPath(ctx, path);\n  }\n\n}\n\nexport default ArcNode;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import PathNode from './path-node';\n\nclass CircleNode extends PathNode {\n  renderPoints(ctx) {\n    const {\n      center,\n      radius\n    } = this.srcElement.geometry();\n    ctx.arc(center.x, center.y, radius, 0, Math.PI * 2);\n  }\n\n}\n\nexport default CircleNode;","map":null,"metadata":{},"sourceType":"module"}

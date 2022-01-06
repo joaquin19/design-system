@@ -1,0 +1,1 @@
+{"ast":null,"code":"const DEG_TO_RAD = Math.PI / 180;\nconst MAX_NUM = Number.MAX_VALUE;\nconst MIN_NUM = -Number.MAX_VALUE;\nexport { DEG_TO_RAD, MAX_NUM, MIN_NUM };","map":null,"metadata":{},"sourceType":"module"}

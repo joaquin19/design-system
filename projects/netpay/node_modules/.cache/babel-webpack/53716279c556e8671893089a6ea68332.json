@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { default as elementStyles } from './element-styles';\nexport default function elementPadding(element) {\n  const {\n    paddingLeft,\n    paddingTop\n  } = elementStyles(element, [\"paddingLeft\", \"paddingTop\"]);\n  return {\n    top: parseFloat(paddingTop),\n    left: parseFloat(paddingLeft)\n  };\n}","map":null,"metadata":{},"sourceType":"module"}

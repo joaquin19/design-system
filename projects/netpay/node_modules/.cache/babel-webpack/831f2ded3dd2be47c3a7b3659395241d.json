@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ElementsArray from '../shapes/elements-array';\n\nclass StopsArray extends ElementsArray {\n  _change() {\n    this.optionsChange({\n      field: \"stops\"\n    });\n  }\n\n}\n\nexport default StopsArray;","map":null,"metadata":{},"sourceType":"module"}

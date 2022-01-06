@@ -99,6 +99,7 @@
               "src/assets"
             ],
             "styles": [
+              "./../../projects/netpay/src/lib/assets/main.scss",
               "src/styles.scss"
             ],
             "scripts": []

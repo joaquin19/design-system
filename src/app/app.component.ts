@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IGridFields } from 'projects/netpay/src/lib/interfaces/gridFields.interface';
+import { responseReportData } from './constatnts/employee';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'design-system';
+  elements: Array<IGridFields> = responseReportData;
+
+  ngOnInit(): void {
+  }
 }

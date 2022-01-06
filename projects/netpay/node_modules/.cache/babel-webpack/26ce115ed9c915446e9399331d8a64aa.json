@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { cloneDate } from './clone-date';\n/**\n * @hidden\n */\n\nexport const adjustDST = (date, hour) => {\n  const newDate = cloneDate(date);\n\n  if (hour === 0 && newDate.getHours() === 23) {\n    newDate.setHours(newDate.getHours() + 2);\n  }\n\n  return newDate;\n};","map":null,"metadata":{},"sourceType":"module"}

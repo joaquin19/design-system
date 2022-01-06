@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ng g c components/button --skipTests=true --inlineStyle=true --inlineTemplate=true
 ng g s services/generic --skipTests=true
+npm version patch

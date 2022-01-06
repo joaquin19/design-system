@@ -1,0 +1,1 @@
+{"ast":null,"code":"import PathNode from './path-node';\n\nclass ArcNode extends PathNode {\n  renderData() {\n    return this.printPath(this.srcElement.toPath());\n  }\n\n}\n\nexport default ArcNode;","map":null,"metadata":{},"sourceType":"module"}

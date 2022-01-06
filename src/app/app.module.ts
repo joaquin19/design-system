@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NetpayModule } from 'netpay';
-// import { NetpayModule } from 'projects/netpay/src/public-api';
+// import { NetpayModule } from 'netpay';
+import { NetpayModule } from './../../projects/netpay/src/lib/netpay.module';
 
 import { AppComponent } from './app.component';
 

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function unbindEvents(element, events = {}) {\n  for (let name in events) {\n    const eventNames = name.trim().split(\" \");\n\n    for (let idx = 0; idx < eventNames.length; idx++) {\n      element.removeEventListener(eventNames[idx], events[name], false);\n    }\n  }\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ElementsArray from './elements-array';\n\nclass GeometryElementsArray extends ElementsArray {\n  _change() {\n    this.geometryChange();\n  }\n\n}\n\nexport default GeometryElementsArray;","map":null,"metadata":{},"sourceType":"module"}

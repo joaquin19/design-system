@@ -1,0 +1,1 @@
+{"ast":null,"code":"let current = {\n  compile: function (template) {\n    return template;\n  }\n};\n\nclass TemplateService {\n  static register(userImplementation) {\n    current = userImplementation;\n  }\n\n  static compile(template) {\n    return current.compile(template);\n  }\n\n}\n\nexport default TemplateService;","map":null,"metadata":{},"sourceType":"module"}
